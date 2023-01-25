@@ -1,0 +1,63 @@
+body,h1,h2,h3,p{
+	margin:0;
+	padding:0;
+}
+*{
+	font-family: 'Montserrat', sans-serif;
+	box-sizing:border-box;
+}
+.container{
+	width:815px;
+	margin:0 auto;
+	
+	
+}
+.row>div{
+	float:left;
+	margin-right:70px;
+}
+.row div:last-child{
+	margin-right:0
+}
+.sunder-pichai{
+	width:222px;
+}
+.satya-nadella{
+	width:222px;
+}
+.ajaypal-sing{
+	width:222px;
+}
+.row h2{
+	font-size:21px;
+	color:#2e4ad6;
+	
+}
+.row h3{
+	font-size:14px;
+	padding:5px 0 25px 0;
+	font-weight:400;
+	color#5f5f5f;
+}
+.row p{
+	font-size:14px;
+	color:#5f5f5f;
+	font-weight:300;
+}
+h1{
+	text-align:center;
+	padding:45px 0;
+	font-size:22px;
+	font-weight:400;
+	
+}
+ @media All and (min-width:550px){
+		body{
+			background:red;
+		}
+ }
+ @media All and (min-width:700px){
+		body{
+			background:green;
+		}
+ }
